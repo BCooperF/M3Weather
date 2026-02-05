@@ -16,6 +16,7 @@ class ViewController: UIViewController {
 	@IBOutlet weak var descriptLabel: UILabel!
 	
 	
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
