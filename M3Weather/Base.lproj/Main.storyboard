@@ -12,7 +12,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="M3Weather" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -73,10 +73,13 @@
                     </view>
                     <connections>
                         <outlet property="descriptLabel" destination="Iof-a7-jau" id="DEn-bo-qdL"/>
+                        <outlet property="descriptionLabel" destination="Iof-a7-jau" id="tBe-ZU-mNf"/>
                         <outlet property="statusLabel" destination="tQ6-dK-aKq" id="k7a-bA-SUd"/>
                         <outlet property="tempLabel" destination="Rma-OH-4bA" id="dQ3-1A-zen"/>
+                        <outlet property="temperatureLabel" destination="Rma-OH-4bA" id="9Fq-DY-sKo"/>
                         <outlet property="weatherImage" destination="Xwa-ey-Ucl" id="Oox-zB-Vlf"/>
                         <outlet property="weatherImageSun" destination="Xwa-ey-Ucl" id="IHx-OC-SW4"/>
+                        <outlet property="weatherImageView" destination="Xwa-ey-Ucl" id="evW-hV-iul"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
